@@ -32,7 +32,7 @@ public class HomePageTest extends DriverClass {
 	}
 	
 	//Title Verification for Home Page
-	@Test (enabled = false)
+	@Test (enabled = true)
 	public static void homeTitleVerification(){
 		try{
 			String title = driver.getTitle();
@@ -46,7 +46,7 @@ public class HomePageTest extends DriverClass {
 	}
 	
 	//Logo Verification in Home Page
-	@Test (enabled = false)
+	@Test (enabled = true)
 	public static void logoVerification(){
 		Assert.assertTrue(HomePage.logoVerification());
 		Log.info("LogoVerification Passed");
@@ -103,7 +103,7 @@ public class HomePageTest extends DriverClass {
 	}
 	
 	//This method is to close all the Drivers. It will execute after each test case.
-	@AfterMethod (enabled = false)
+	@AfterMethod (enabled = true)
 	public static void tearDown(){
 		driverTeardown(); //This method is created in Driver Class
 		Log.info("All the Drivers are closed and Cleared");

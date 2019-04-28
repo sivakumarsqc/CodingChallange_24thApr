@@ -44,13 +44,14 @@ Created 2 Folder structure,
 5. Screen Shots will be saved in Screen shot Folder which is available in Root folder.
 6. Config file, Extend Report and TestNg.xml will be available in Project Root Folder.
 ***************************************************************************************
-Other Libraries
----------------
-Below are the Libraries used in this Framework to imporve out Reports and Logging,
+Required Libraries
+------------------
+Below are the Libraries used in this Framework to imporve our Reports and Logging,
 
-	1. TestNG 
-	2. Extend Report
-	3. Log4j
-	4. Retry Logic
+	1. Selenium Client
+	2. TestNG 
+	3. Extend Report
+	4. Log4j
+	5. Retry Logic
 
 

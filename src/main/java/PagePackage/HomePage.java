@@ -58,7 +58,7 @@ public class HomePage extends DriverClass {
 	
 	public static String calWeek = "//div[@class='DayPicker-Months']//div[@class='DayPicker-Month'][1]//div[@class='DayPicker-Week']";
 	
-	public static String daySecondPart = "//div[starts-with(@class,'DayPicker-Day')]";// and @aria-disabled='false']";
+	public static String daySecondPart = "//div[starts-with(@class,'DayPicker-Day')]";
 	//public static String daySecondPart = "//div[starts-with(@class,'DayPicker-Day') and @aria-disabled='false']";
 	
 	public static String dayThirdPart = "//div[@class='dateInnerCell']/p[1]";
@@ -138,7 +138,7 @@ public class HomePage extends DriverClass {
 				String textInDay = day.getText();
 				int intDay = Integer.parseInt(strDay);
 				int intTextInDay = Integer.parseInt(textInDay);
-				if (intDay == intTextInDay){									//If compare as String, it wont work for dates less than 10 whihc contains '0' as 1st digit.
+				if (intDay == intTextInDay){						//If compared as String, it wont work for dates less than 10 which contains '0' as 1st digit.
 					ApplicationUtill.clickByJavaScript(day);
 					doneFlag=true;
 					break;
