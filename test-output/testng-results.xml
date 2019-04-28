@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90945" started-at="2019-04-28T09:34:54Z" finished-at="2019-04-28T09:36:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90945" started-at="2019-04-28T09:34:54Z" finished-at="2019-04-28T09:36:25Z">
+      <class name="TestCasePackage.HomePageTest">
+        <test-method status="PASS" signature="driverInitialization()[pri:0, instance:TestCasePackage.HomePageTest@29ee9faa]" name="driverInitialization" is-config="true" duration-ms="10179" started-at="2019-04-28T15:04:54Z" finished-at="2019-04-28T15:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInitialization -->
+        <test-method status="PASS" signature="endToEndCases()[pri:0, instance:TestCasePackage.HomePageTest@29ee9faa]" name="endToEndCases" duration-ms="80751" started-at="2019-04-28T15:05:04Z" finished-at="2019-04-28T15:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endToEndCases -->
+      </class> <!-- TestCasePackage.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

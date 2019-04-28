@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Selenium Coding Assignment" verbose="1" >
+	<listeners>
+  		<listener class-name="UtilityPackage.RetryListener"></listener>
+  		<listener class-name="UtilityPackage.ExtendReportClass"></listener>
+  		<listener class-name="UtilityPackage.TestListener"></listener>
+  		
+   	</listeners>	
+
+  <test name="Sanity suite" >
+  	<classes>
+      <class name="TestCasePackage.HomePageTest"/>
+     </classes>
+ </test>
+</suite>
